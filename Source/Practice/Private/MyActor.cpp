@@ -16,6 +16,7 @@ void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	//충돌실험
 }
 
 // Called every frame
