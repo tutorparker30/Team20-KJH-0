@@ -1,7 +1,5 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "MyActor.h"
+#include "Kismet/KismetSystemLibrary.h"
 
 // Sets default values
 AMyActor::AMyActor()
@@ -16,7 +14,7 @@ void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	//충돌실험
+	UKismetSystemLibrary::PrintString(this, FString::Printf(TEXT("The source code that I wrote.")));
 }
 
 // Called every frame
