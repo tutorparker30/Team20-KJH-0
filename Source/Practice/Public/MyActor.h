@@ -16,7 +16,7 @@ public:
 	AMyActor();
 
 protected:
-	// Called when the game starts or when spawned
+	// Called when the game starts or when spawned aefawefafafe
 	virtual void BeginPlay() override;
 
 public:	
